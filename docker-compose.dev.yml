@@ -1,0 +1,22 @@
+version: '3.1'
+
+services:
+
+  teros-db:
+    container_name: teros_db
+    image: mariadb
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      - MARIADB_ROOT_HOST=localhost
+      - MARIADB_ROOT_PASSWORD=root
+      - MARIADB_USER=teros
+      - MARIADB_PASSWORD=teros
+      - MARIADB_DATABASE=teros
+    networks:
+      - teros
+
+networks:
+  teros:
+    name: teros-network
