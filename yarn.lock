@@ -373,10 +373,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@faker-js/faker@7.5.0":
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-7.5.0.tgz#8e8265f65f5b68d2a57886d59b03788eeb676264"
-  integrity sha512-8wNUCCUHvfvI0gQpDUho/3gPzABffnCn5um65F8dzQ86zz6dlt4+nmAA7PQUc8L+eH+9RgR/qzy5N/8kN0Ozdw==
+"@faker-js/faker@7.6.0":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-7.6.0.tgz#9ea331766084288634a9247fcd8b84f16ff4ba07"
+  integrity sha512-XK6BTq1NDMo9Xqw/YkYyGjSsg44fbNwYRx7QK2CuoQgyy+f1rrTDHoExVM5PsyXCtfl2vs2vVJ0MN0yN6LppRw==
 
 "@humanwhocodes/config-array@^0.10.5":
   version "0.10.7"
@@ -742,14 +742,14 @@
     globby "11.0.4"
     ts-morph "16.0.0"
 
-"@mikro-orm/seeder@5.4.2":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/seeder/-/seeder-5.4.2.tgz#1c33896e7dc02d76f92dce6fb40f2fd10910cca1"
-  integrity sha512-5tiRsjlrOAEL0GHfLiM4wqzNp4wa0VKnE0RTTmecNE1311HDgQK6pvrz7KpbEh4dW6VAL/Xbe+KO7JVSsYzuJA==
+"@mikro-orm/seeder@5.6.2":
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/seeder/-/seeder-5.6.2.tgz#b931b898c6f9d21ff0f559fa7bd70e9bc023a923"
+  integrity sha512-OCqkyP49gjdN0jFWlkvVdBFqH88f4lxbE4QbecCoQxt9tr91dQWytPuHVkVdDtOB8cyiiNz3rrNBr3XJqeT4vw==
   dependencies:
-    "@faker-js/faker" "7.5.0"
-    fs-extra "10.1.0"
-    globby "11.0.4"
+    "@faker-js/faker" "7.6.0"
+    fs-extra "11.1.0"
+    globby "11.1.0"
 
 "@mikro-orm/sql-highlighter@^1.0.1":
   version "1.0.1"
@@ -2908,6 +2908,15 @@ fs-extra@10.1.0, fs-extra@^10.0.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
+fs-extra@11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.0.tgz#5784b102104433bb0e090f48bfc4a30742c357ed"
+  integrity sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
 fs-jetpack@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/fs-jetpack/-/fs-jetpack-4.3.1.tgz#cdfd4b64e6bfdec7c7dc55c76b39efaa7853bb20"
@@ -3065,7 +3074,7 @@ globby@11.0.4:
     merge2 "^1.3.0"
     slash "^3.0.0"
 
-globby@^11.1.0:
+globby@11.1.0, globby@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/globby/-/globby-11.1.0.tgz#bd4be98bb042f83d796f7e3811991fbe82a0d34b"
   integrity sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==
