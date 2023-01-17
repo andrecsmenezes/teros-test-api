@@ -711,6 +711,15 @@
     knex "2.3.0"
     sqlstring "2.3.3"
 
+"@mikro-orm/knex@~5.6.2":
+  version "5.6.7"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-5.6.7.tgz#04cf32c9979e13246bc20e142589040927464586"
+  integrity sha512-UDwAt+lII9/G0NfaYjrwyChlhBbgNrq700VCy4aaSbJ1S2gysRfhzeiDVtlmd+zRIHDAz+U5NETspgnP128TKw==
+  dependencies:
+    fs-extra "11.1.0"
+    knex "2.4.0"
+    sqlstring "2.3.3"
+
 "@mikro-orm/mariadb@5.4.2":
   version "5.4.2"
   resolved "https://registry.yarnpkg.com/@mikro-orm/mariadb/-/mariadb-5.4.2.tgz#3990e055fa76aceb5b15aa3826491b1132a5e41b"
@@ -719,13 +728,13 @@
     "@mikro-orm/knex" "~5.4.2"
     mariadb "2.5.6"
 
-"@mikro-orm/migrations@5.4.2":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/migrations/-/migrations-5.4.2.tgz#167ef9e8e5c6953f7f5136b25ada0a8578f966fd"
-  integrity sha512-eXy8vaSrMfmUkjm4yBDle5SA80dL3csIyuP3sp/wmKMxKmzMUXX6CUyNy6kahplOpnjhplFy9uMzFg2fQfQV+g==
+"@mikro-orm/migrations@5.6.2":
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/migrations/-/migrations-5.6.2.tgz#768d686976c357a911d33db69b69ed3d5f944fa9"
+  integrity sha512-3Wq+NBlpVH7+yotukamk19I2zD0kGb7R3WzYWBxfvJlc9GCiDFF4fKLuzxH4bmTR2Jyni84CUX0g6kIcqUXowg==
   dependencies:
-    "@mikro-orm/knex" "~5.4.2"
-    fs-extra "10.1.0"
+    "@mikro-orm/knex" "~5.6.2"
+    fs-extra "11.1.0"
     knex "2.3.0"
     umzug "3.2.1"
 
@@ -2908,6 +2917,15 @@ fs-extra@10.1.0, fs-extra@^10.0.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
+fs-extra@11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.0.tgz#5784b102104433bb0e090f48bfc4a30742c357ed"
+  integrity sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
 fs-jetpack@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/fs-jetpack/-/fs-jetpack-4.3.1.tgz#cdfd4b64e6bfdec7c7dc55c76b39efaa7853bb20"
@@ -3874,6 +3892,26 @@ knex@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/knex/-/knex-2.3.0.tgz#87fa2a9553d7cafb125d7a0645256fbe29ef5967"
   integrity sha512-WMizPaq9wRMkfnwKXKXgBZeZFOSHGdtoSz5SaLAVNs3WRDfawt9O89T4XyH52PETxjV8/kRk0Yf+8WBEP/zbYw==
+  dependencies:
+    colorette "2.0.19"
+    commander "^9.1.0"
+    debug "4.3.4"
+    escalade "^3.1.1"
+    esm "^3.2.25"
+    get-package-type "^0.1.0"
+    getopts "2.3.0"
+    interpret "^2.2.0"
+    lodash "^4.17.21"
+    pg-connection-string "2.5.0"
+    rechoir "^0.8.0"
+    resolve-from "^5.0.0"
+    tarn "^3.0.2"
+    tildify "2.0.0"
+
+knex@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/knex/-/knex-2.4.0.tgz#7d33cc36f320cdac98741010544b4c6a98b8b19e"
+  integrity sha512-i0GWwqYp1Hs2yvc2rlDO6nzzkLhwdyOZKRdsMTB8ZxOs2IXQyL5rBjSbS1krowCh6V65T4X9CJaKtuIfkaPGSA==
   dependencies:
     colorette "2.0.19"
     commander "^9.1.0"
