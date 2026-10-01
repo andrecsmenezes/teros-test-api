@@ -1,3 +1,9 @@
+<!-- PORTFOLIO-HISTORICAL-CONTEXT -->
+> [!NOTE]
+> **Historical technical assessment.** This repository was created for a technical assessment and is preserved as historical work. The current branch no longer contains the previously committed local .env file; historical commits may still contain old development-only values. [See the current engineering portfolio](https://github.com/andrecsmenezes).
+
+---
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
